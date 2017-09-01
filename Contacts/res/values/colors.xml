@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <color name="quickcontact_name_detail_background">#66000000</color>
+    <color name="quickcontact_entry_sub_header_text_color">#737373</color>
+    <color name="quickcontact_entry_header_text_color">#202020</color>
+
+    <color name="background_social_updates">#ffeeeeee</color>
+
+    <!-- TODO: remove these colors once we delete the group code (b/16522929) -->
+    <color name="action_bar_background">#0288d1</color>
+    <color name="action_bar_background_highlight">#cecece</color>
+    <color name="action_bar_button_text_color">#FFFFFF</color>
+
+    <color name="actionbar_background_color">@color/primary_color</color>
+    <color name="actionbar_background_color_dark">@color/primary_color_dark</color>
+
+    <color name="contextual_selection_bar_color">#616161</color>
+    <!-- Color of the status bar above the contextual selection bar. -->
+    <color name="contextual_selection_bar_status_bar_color">#424242</color>
+
+    <color name="primary_color_dark">#0277bd</color>
+    <color name="primary_color">#0288d1</color>
+
+    <!-- Color of the selected tab underline -->
+    <color name="contacts_accent_color">#FFFFFF</color>
+
+    <color name="floating_action_button_icon_color">@color/contacts_accent_color</color>
+
+    <!-- Horizontal separator line should be 12% dark in the light theme. -->
+    <color name="divider_line_color_light">#e0e0e0</color>
+
+    <!-- Color of the text on an ExpandingEntryCard button -->
+    <color name="expanding_entry_card_button_text_color">@android:color/black</color>
+
+    <!-- Background color for an ExpandingEntryCard -->
+    <color name="expanding_entry_card_background_color">#ffffff</color>
+
+    <!-- Color of the margin for cards -->
+    <color name="card_margin_color">#f4f4f4</color>
+
+    <color name="call_arrow_green">#2aad6f</color>
+    <color name="call_arrow_red">#ff2e58</color>
+
+    <color name="contact_all_list_background_color">#FFFFFF</color>
+    <color name="contact_favorites_list_background_color">#FFFFFF</color>
+    <color name="group_list_background_color">#FFFFFF</color>
+
+    <!-- Background color of pinned header items. -->
+    <color name="list_item_pinned_header_color">@color/background_primary</color>
+
+    <!-- Color of the mime-type icons inside the editor. 50% black. -->
+    <color name="editor_icon_color">#7f7f7f</color>
+
+    <!-- Color of disabled text and unfocused hint text inside the contact editor. 25% black. -->
+    <color name="editor_disabled_text_color">#40000000</color>
+
+    <!-- Color of button background in compact photo picker. -->
+    <color name="google_grey_600">#757575</color>
+
+    <!-- Color of button text in compact photo picker, 85% white. -->
+    <color name="photo_action_button_color">#D9FFFFFF</color>
+
+    <!-- Color of text on disabled link contacts button, 25% black. -->
+    <color name="disabled_button_text">#40000000</color>
+
+    <!-- Color of background of disabled link contacts button, 15% black. -->
+    <color name="disabled_button_background">#26000000</color>
+
+    <!-- The background of one selected multi-pick contacts list item. -->
+    <color name="multi_pick_contact_list_item_selected">#1A000000</color>
+
+    <!-- The call types' text color in call log. -->
+    <color name="call_types_text_color">#91000000</color>
+
+    <!-- The text color of contacts item's label. -->
+    <color name="multi_pick_label_text_color">#91000000</color>
+
+    <!-- Group item's text-colors-->
+    <color name="group_name_text_color">#DF000000</color>
+    <color name="group_size_text_color">#91000000</color>
+    <color name="group_account_text_color">#89000000</color>
+
+    <!-- Contacts item's text-colors. -->
+    <color name="phone_or_number_text_color">#91000000</color>
+    <color name="contacts_or_name_text_color">#DF000000</color>
+
+    <!-- Confirm or disable button's text-colors in multi-pick. -->
+    <color name="ok_or_clear_button_disable_color">#44000000</color>
+    <color name="ok_or_clear_button_normal_color">#ff03a9f4</color>
+
+    <!-- Horizontal separator line should be 10% dark in the light theme. -->
+    <color name="divider_line_color">#1A000000</color>
+
+    <!-- Search-box's colors.  -->
+    <color name="searchbox_phone_text_color">#db000000</color>
+    <color name="searchbox_phone_background_color">#ffffffff</color>
+    <color name="searchbox_phone_hint_text_color">#42000000</color>
+
+    <!-- The selection button's expand window text-color in actionbar. -->
+    <color name="action_bar_expand_text_color">#FF000000</color>
+    <color name="action_bar_select_button_text_color">#FFFFFFFF</color>
+    <color name="multi_pick_search_view_edit_text_color">#DBFFFFFF</color>
+    <color name="multi_pick_search_view_edit_hint_text_color">#42FFFFFF</color>
+    <!-- Contact section index's text-color. -->
+    <color name="contact_section_index_color">#8C000000</color>
+
+    <!-- Color for answered or outgoing call icons. -->
+    <color name="answered_call">#00c853</color>
+    <!-- Color for missed call icons. -->
+    <color name="missed_call">#ff2e58</color>
+    <!-- Popup select button background. -->
+    <color name="select_popup_button_background">#FFFFFFFF</color>
+    <color name="blocked_call">#636363</color>
+    <color name="merge_list_divider_color">#1F000000</color>
+</resources>
