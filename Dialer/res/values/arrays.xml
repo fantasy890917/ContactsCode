@@ -1,0 +1,21 @@
+<resources>
+    <string-array name="commands">
+        <item>cat /sys/class/huaqin/interface/hw_info/alsps</item>
+        <item>cat /sys/class/huaqin/interface/hw_info/bt</item>
+        <item>cat /sys/class/huaqin/interface/hw_info/ctp</item>
+        <item>cat /sys/class/huaqin/interface/hw_info/emmc</item>
+        <item>cat /sys/class/huaqin/interface/hw_info/fingerprint</item>
+        <item>cat /sys/class/huaqin/interface/hw_info/fm</item>
+        <item>cat /sys/class/huaqin/interface/hw_info/gps</item>
+        <item>cat /sys/class/huaqin/interface/hw_info/gsensor</item>
+        <item>cat /sys/class/huaqin/interface/hw_info/gyro</item>
+        <item>cat /sys/class/huaqin/interface/hw_info/hw_summary</item>
+        <item>cat /sys/class/huaqin/interface/hw_info/lcm</item>
+        <item>cat /sys/class/huaqin/interface/hw_info/main_cam</item>
+        <item>cat /sys/class/huaqin/interface/hw_info/msensor</item>
+        <item>cat /sys/class/huaqin/interface/hw_info/sub_cam</item>
+        <item>cat /sys/class/huaqin/interface/hw_info/ver</item>
+        <item>cat /sys/class/huaqin/interface/hw_info/wifi</item>
+    </string-array>
+
+</resources>

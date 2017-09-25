@@ -1,0 +1,186 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dip" >
+
+        <TextView
+            android:id="@+id/ringtone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="#ffff0000"
+            android:text="@string/typechoose" />
+
+        <Spinner
+            android:id="@+id/myspinner"
+            style="@style/TextAppearance.EditEvent_Spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="20dip"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/dialer_red_highlight_color"
+                android:text="@string/voltagechoose" />
+
+            <Spinner
+                android:id="@+id/voltagespinner"
+                style="@style/TextAppearance.EditEvent_Spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                 />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/multivibset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textColor="@color/dialer_red_highlight_color"
+                android:text="@string/vib_time_set" />
+
+            <EditText
+                android:id="@+id/multivibraotr1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/vibrator_time"
+                android:inputType="number"
+                android:maxLength="4"
+                android:textColor="@color/dialer_red_highlight_color"
+                android:singleLine="true"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/multivibraotr2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/vibmute_time"
+                android:inputType="number"
+                android:textColor="@color/dialer_red_highlight_color"
+                android:maxLength="4"
+                android:singleLine="true"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/multivibraotr3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/vibrator_time"
+                android:inputType="number"
+                android:textColor="@color/dialer_red_highlight_color"
+                android:maxLength="4"
+                android:singleLine="true"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="20dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/playpause"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:textColor="@color/background_dialer_light"
+                android:background="@drawable/common_blue_btn"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:text="@string/play_txt" />
+
+            <Button
+                android:id="@+id/stop"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_weight="1"
+                android:textColor="@color/background_dialer_light"
+                android:background="@drawable/common_blue_btn"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:text="@string/stop_txt" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="50dip"
+        android:orientation="horizontal"
+        android:padding="2dip" >
+
+        <Button
+            android:id="@+id/useto"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_weight="1"
+            android:textColor="@color/background_dialer_light"
+            android:background="@drawable/common_blue_btn"
+            android:paddingRight="10dip"
+            android:visibility="gone"
+            android:text="@string/useto_txt" />
+
+        <Button
+            android:id="@+id/save"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:textColor="@color/background_dialer_light"
+            android:layout_marginRight="5dip"
+            android:layout_weight="1"
+            android:background="@drawable/common_blue_btn"
+            android:paddingLeft="5dip"
+            android:paddingRight="10dip"
+            android:text="@string/save_txt" />
+    </LinearLayout>
+
+</LinearLayout>
